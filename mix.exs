@@ -27,6 +27,6 @@ defmodule Physics.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 1.0.0-rc4"}]
+    [{:timex, "~> 1.0.0-rc4"}, {:amnesia, github: "meh/amnesia", tag: :master}]
   end
 end
